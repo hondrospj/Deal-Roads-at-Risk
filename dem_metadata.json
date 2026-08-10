@@ -1,0 +1,45 @@
+{
+  "name": "Roads at Risk - Deal DEM",
+  "source": "USGS 3DEP Bare Earth DEM Dynamic ImageServer",
+  "sourceUrl": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+  "sourceDescription": "USGS 3D Elevation Program (3DEP) Bare Earth DEM Dynamic service, retrieved for the Roads at Risk municipal rollout.",
+  "downloadedAt": "2026-08-10",
+  "processing": "Exported from USGS 3DEP at municipal extent, masked to the Deal Borough boundary, resampled to 1.524 m / 5 ft pixels, and compressed as a Cloud Optimized GeoTIFF.",
+  "horizontalCrs": "EPSG:3857",
+  "verticalUnits": "meters",
+  "displayElevationUnits": "feet",
+  "pixelSizeMeters": 1.524,
+  "pixelSizeFeet": 4.99999999998,
+  "adaptiveResolution": false,
+  "width": 1606,
+  "height": 2472,
+  "nodata": -999999,
+  "minMeters": 0,
+  "maxMeters": 16.303,
+  "meanMeters": 7.235,
+  "stdDevMeters": 2.177,
+  "minFeet": 0,
+  "maxFeet": 53.48753280818501,
+  "webMercatorBounds": [
+    -8238720.2142,
+    4900520.874109,
+    -8236272.6702000005,
+    4904288.202109
+  ],
+  "leafletBounds": [
+    [
+      40.2375433,
+      -74.0096829
+    ],
+    [
+      40.2633671,
+      -73.9877005
+    ]
+  ],
+  "files": {
+    "demCog": "deal_dem_5ft_cog.tif",
+    "hillshadeCog": "deal_hillshade_cog.tif",
+    "hillshadePng": "deal_hillshade.png",
+    "boundaryGeojson": "deal_boundary.geojson"
+  }
+}
